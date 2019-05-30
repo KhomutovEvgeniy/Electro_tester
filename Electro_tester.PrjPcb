@@ -140,6 +140,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HWKOLOFW
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Electro_tester\Design Rule Check - Electro_tester.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
