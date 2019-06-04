@@ -144,6 +144,14 @@ DocumentUniqueId=KNMXDHCT
 DocumentPath=Project Outputs for Electro_tester\Design Rule Check - Electro_tester.html
 DItemRevisionGUID=
 
+[GeneratedDocument2]
+DocumentPath=Project Outputs for Electro_tester\Electro_tester.BOM
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for Electro_tester\Electro_tester.CSV
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -527,6 +535,8 @@ OutputName2=Simple BOM
 OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
+Configuration2_Name1=OutputConfigurationParameter1
+Configuration2_Item1=Record=SimpleBOMView|SimpleBOMMode=0
 OutputType3=SinglePinNetReporter
 OutputName3=Report Single Pin Nets
 OutputDocumentPath3=
