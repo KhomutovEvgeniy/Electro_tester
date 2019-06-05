@@ -124,7 +124,7 @@ GenerateClassCluster=0
 DocumentUniqueId=BLKUQJGY
 
 [Document6]
-DocumentPath=Electro_tester.PcbDoc
+DocumentPath=Electro_tester(temp).PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -141,14 +141,18 @@ GenerateClassCluster=0
 DocumentUniqueId=KNMXDHCT
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for Electro_tester\Design Rule Check - Electro_tester.html
+DocumentPath=Project Outputs for Electro_tester\Design Rule Check - Electro_tester(temp).html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for Electro_tester\Electro_tester.BOM
+DocumentPath=Project Outputs for Electro_tester\Design Rule Check - Electro_tester.html
 DItemRevisionGUID=
 
 [GeneratedDocument3]
+DocumentPath=Project Outputs for Electro_tester\Electro_tester.BOM
+DItemRevisionGUID=
+
+[GeneratedDocument4]
 DocumentPath=Project Outputs for Electro_tester\Electro_tester.CSV
 DItemRevisionGUID=
 
