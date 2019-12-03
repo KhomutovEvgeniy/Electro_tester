@@ -1,0 +1,133 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\Evgeny\Desktop\Electro_tester\Electro_tester.PcbDoc
+Date     : 6/4/2019
+Time     : 8:16:24 PM
+
+WARNING: Unplated multi-layer pad(s) detected
+   Pad X3-1(150.375mm,84.35mm) on Multi-Layer on Net NetFU1_1
+   Pad X3-2(150.375mm,80.85mm) on Multi-Layer on Net AMPLIFIER-
+
+Processing Rule : Clearance Constraint (Gap=0.125mm) (OnLayer('MidLayer 1','MidLayer 2','MidLayer 3','MidLayer 4','MidLayer 5','MidLayer 6','MidLayer 7','MidLayer 8','Signal Layer 1','Signal Layer 2','Signal Layer 3','Signal Layer 4','Signal Layer 5','Signal Layer 6','Signal Layer 7','Signal Layer 8')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0mm) (isVia),(OnLayer('Multi-Layer'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.25mm) (All),(OnLayer('Keep-Out Layer'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0mm) (OnLayer('Top Layer','Bottom Layer')),(OnLayer('Multi-Layer'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0mm) (isVia),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.125mm) (OnLayer('Top Layer','Bottom Layer')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0mm) (IsPad and OnLayer('Top Layer','Bottom Layer')),(IsPad and OnLayer('Top Layer','Bottom Layer'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.125mm) (InPoly),(PadIsPlated = 'False')
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=Yes) (InNet('GND','PGND','SGND','P_GND','S_GND','DGND','D_GND','AGND','A_GND')),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Net NetVD4_1 Between Pad VT1-3(141.4mm,92.775mm) on Top Layer And Pad VD4-1(144.75mm,95.395mm) on Top Layer [Unplated] 
+   Violation between Un-Routed Net Constraint: Net AMPLIFIER- Between Pad C3-1(88.095mm,77.625mm) on Top Layer [Unplated] And Pad C4-1(88.095mm,80.05mm) on Top Layer [Unplated] 
+   Violation between Un-Routed Net Constraint: Net AMPLIFIER- Between Pad DA5-5(127.18mm,50.12mm) on Top Layer And Pad R19-1(129.567mm,49.175mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net AMPLIFIER- Between Pad C24-2(83.902mm,83.184mm) on Top Layer [Unplated] And Via (86.1mm,81.925mm) from Top Layer to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net AMPLIFIER- Between Pad C33-1(137.65mm,83.852mm) on Top Layer [Unplated] And Pad R27-1(140.25mm,82.502mm) on Top Layer [Unplated] 
+   Violation between Un-Routed Net Constraint: Net AMPLIFIER- Between Pad C21-1(131.54mm,53.325mm) on Top Layer [Unplated] And Pad C29-1(132.878mm,55.949mm) on Top Layer [Unplated] 
+   Violation between Un-Routed Net Constraint: Net AMPLIFIER- Between Pad DA3-2(54.225mm,91.8mm) on Top Layer And Pad C23-1(54.225mm,95.845mm) on Top Layer [Unplated] 
+   Violation between Un-Routed Net Constraint: Net AMPLIFIER- Between Pad C19-1(138.35mm,96.87mm) on Top Layer [Unplated] And Pad C18-1(141.176mm,98.228mm) on Top Layer [Unplated] 
+   Violation between Un-Routed Net Constraint: Net AMPLIFIER- Between Pad C18-1(141.176mm,98.228mm) on Top Layer [Unplated] And Pad VD4-2(144.75mm,99.155mm) on Top Layer [Unplated] 
+   Violation between Un-Routed Net Constraint: Net AMPLIFIER- Between Pad VD4-2(144.75mm,99.155mm) on Top Layer [Unplated] And Pad R13-1(147.85mm,97.157mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net AMPLIFIER- Between Pad DA3-2(54.225mm,91.8mm) on Top Layer And Pad C8-2(59.825mm,93.275mm) on Top Layer [Unplated] 
+   Violation between Un-Routed Net Constraint: Net AMPLIFIER- Between Pad R19-1(129.567mm,49.175mm) on Top Layer And Pad VD5-2(137.125mm,49.175mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net AMPLIFIER- Between Pad C4-1(88.095mm,80.05mm) on Top Layer [Unplated] And Pad C26-2(93.675mm,82.35mm) on Top Layer [Unplated] 
+   Violation between Un-Routed Net Constraint: Net AMPLIFIER- Between Pad C34-1(126.925mm,58.325mm) on Top Layer [Unplated] And Pad C29-1(132.878mm,55.949mm) on Top Layer [Unplated] 
+   Violation between Un-Routed Net Constraint: Net AMPLIFIER- Between Via (82.679mm,63.903mm) from Top Layer to Bottom Layer And Pad DA4-15(88.675mm,67.67mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net AMPLIFIER- Between Pad C36-2(115.25mm,69.825mm) on Top Layer [Unplated] And Pad R23-1(118.435mm,63.225mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net AMPLIFIER- Between Pad C28-1(118.15mm,50.925mm) on Top Layer [Unplated] And Pad DA5-5(127.18mm,50.12mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net AMPLIFIER- Between Via (86.1mm,81.925mm) from Top Layer to Bottom Layer And Pad C27-1(88.15mm,97.79mm) on Top Layer [Unplated] 
+   Violation between Un-Routed Net Constraint: Net AMPLIFIER- Between Pad C22-2(52.575mm,80.142mm) on Top Layer [Unplated] And Pad DA3-2(54.225mm,91.8mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net AMPLIFIER- Between Via (86.1mm,81.925mm) from Top Layer to Bottom Layer And Pad C4-1(88.095mm,80.05mm) on Top Layer [Unplated] 
+   Violation between Un-Routed Net Constraint: Net AMPLIFIER- Between Pad R19-1(129.567mm,49.175mm) on Top Layer And Pad C21-1(131.54mm,53.325mm) on Top Layer [Unplated] 
+   Violation between Un-Routed Net Constraint: Net AMPLIFIER- Between Via (86.1mm,81.925mm) from Top Layer to Bottom Layer And Pad C19-1(138.35mm,96.87mm) on Top Layer [Unplated] 
+   Violation between Un-Routed Net Constraint: Net AMPLIFIER- Between Via (86.1mm,81.925mm) from Top Layer to Bottom Layer And Pad C33-1(137.65mm,83.852mm) on Top Layer [Unplated] 
+   Violation between Un-Routed Net Constraint: Net AMPLIFIER- Between Pad C28-1(118.15mm,50.925mm) on Top Layer [Unplated] And Pad R23-1(118.435mm,63.225mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net AMPLIFIER- Between Pad C22-2(52.575mm,80.142mm) on Top Layer [Unplated] And Via (86.1mm,81.925mm) from Top Layer to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net AMPLIFIER- Between Via (82.679mm,63.903mm) from Top Layer to Bottom Layer And Pad R23-1(118.435mm,63.225mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Unplated Pad X3-2(150.375mm,80.85mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net DGND Between Pad C11-1(59.475mm,76.35mm) on Top Layer [Unplated] And Pad C15-1(59.475mm,78.229mm) on Top Layer [Unplated] 
+   Violation between Un-Routed Net Constraint: Net DGND Between Pad R11-1(72.417mm,69.25mm) on Top Layer And Pad R8-1(72.567mm,72.55mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net DGND Between Pad R11-1(72.417mm,69.25mm) on Top Layer And Via (78.75mm,67.5mm) from Top Layer to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net DGND Between Pad C11-1(59.475mm,76.35mm) on Top Layer [Unplated] And Pad DD1-47(62.25mm,74.025mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net DGND Between Pad C12-2(53.325mm,69.437mm) on Top Layer [Unplated] And Via (60mm,65mm) from Top Layer to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net DGND Between Pad DD1-47(62.25mm,74.025mm) on Top Layer And Via (63.75mm,67.5mm) from Top Layer to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Unplated Pad X3-1(150.375mm,84.35mm) on Multi-Layer 
+Rule Violations :34
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.125mm) (Max=8mm) (Preferred=0.15mm) (All)
+Rule Violations :0
+
+Processing Rule : SMD To Corner (Distance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : SMD To Plane Constraint (Distance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : SMD Entry (Side = Allowed) (Corner = Allowed) (Any Angle = Allowed) (Ignore First Corner = Allowed)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=0.4mm) (IsPad)
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=0.15mm) (IsVia)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.3mm) (Max=6mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+   Violation between Hole To Hole Clearance Constraint: (0.072mm < 0.254mm) Between Via (81.25mm,77.5mm) from Top Layer to Bottom Layer And Via (80.9mm,77.625mm) from Top Layer to Bottom Layer 
+Rule Violations :1
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0mm) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+   Violation between Net Antennae: Via (86.1mm,81.925mm) from Top Layer to Bottom Layer 
+Rule Violations :1
+
+Processing Rule : Board Clearance Constraint (Gap=0mm) (OnLayer('Top Layer','Bottom Layer'))
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mm) (OnLayer('MidLayer 1','MidLayer 2','MidLayer 3','MidLayer 4','MidLayer 5','MidLayer 6','MidLayer 7','MidLayer 8','Signal Layer 1','Signal Layer 2','Signal Layer 3','Signal Layer 4','Signal Layer 5','Signal Layer 6','Signal Layer 7','Signal Layer 8'))
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=50mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 36
+Waived Violations : 0
+Time Elapsed        : 00:00:08

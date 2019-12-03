@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [Electro_tester(temp).PcbDoc]
+   Generated File[Electro_tester(temp)-RoundHoles.TXT]
+   Generated File[Electro_tester(temp)-SlotHoles.TXT]
+   Generated File[Electro_tester(temp).LDP]
+   Generated File[Electro_tester(temp).DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 10:24:00 AM On 7/4/2019

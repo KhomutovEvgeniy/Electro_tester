@@ -1,0 +1,8 @@
+﻿/Debug
+/lst
+/obj
+/.settings/*
+/*.bak
+/dummy.uvgui.*
+/EventRecorderStub.scvd
+/Debug/

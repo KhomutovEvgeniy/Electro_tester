@@ -1,0 +1,56 @@
+﻿Field=#~Integer~#~50|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=Part Number~String~Part Number~100|Field=Quantity~Integer~Quantity~100|Field=Value~String~Value~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~Electro_tester.PrjPcb|ReportField=ProjectFullPath~C:\Users\Evgeny\Desktop\Electro_tester\Electro_tester.PrjPcb|ReportField=Title~Bill of Materials For PCB Document [Electro_tester.PcbDoc]|ReportField=TotalQuantity~98|ReportField=ReportTime~10:58:26 AM|ReportField=ReportDate~6/4/2019|ReportField=ReportDateTime~6/4/2019 10:58:26 AM|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=DataSourceFileName~Electro_tester.PcbDoc|ReportField=DataSourceFullPath~C:\Users\Evgeny\Desktop\Electro_tester\Electro_tester.PcbDoc|ReportField=PCBConfigurationName~Sources|ReportField=Item~|ReportField=ItemRevision~|ReportField=ItemAndRevision~|ReportField=ItemRevisionBase~|ReportField=ItemRevisionLevel1~|ReportField=ItemRevisionLevel2~|ReportField=ItemRevisionLevel1AndBase~|ReportField=ItemRevisionLevel2AndLevel1~
+1|DC-DC step-up converter for 5/32-V to 5/35-V, Кнопка, USB UART module cp2102, Разъем - 6 конт. розетка|A1, S1, U1, X1|Module XL6009, Button_SMD, USB UART CP2102, PLS2-6||4|
+2|Конденсатор|C1|C0805|GRM216R71H103K|1|0,01мк
+3|Конденсатор|C2, C3, C5, C9, C19, C21, C38|C0805|GRM21BR71H104KA01L |7|0,1мк
+4|Конденсатор|C4, C6, C37|C0805|GRM21BR71H105K|3|1мк
+5|Конденсатор полярный|C7|TANTAL CASE D|TAJD336K035RNJ|1|33мк
+6|Конденсатор полярный|C8, C22, C24, C25, C26, C36|TANTAL CASE A|293D106X9016A2TE3|6|10мк
+7|Конденсатор|C10, C11, C13, C14, C15, C16|C0603|GRM188R71H104KA93D|6|0,1мк
+8|Конденсатор|C12, C17|C0603|CC0603JRNPO9BN220|2|22
+9|Конденсатор|C18|C1206|GRM31CR71E106KA12L*|1|10мк
+10|Конденсатор|C23, C33|C0805|GRM21BR61E475KA12L|2|4,7мк
+11|Конденсатор|C27|C1210|GRM32ER71H106K|1|10мк
+12|Конденсатор|C28|C0603|GRM1885C1H151J|1|150
+13|Конденсатор|C29|C1206|GRM319R71H223K|1|0,022мк
+14|Конденсатор полярный|C30|K50-35(16X32)|ECAP33uF/450V|1|33мк
+15|Конденсатор|C31|C0603|GRM1885C1H101J|1|100
+16|Конденсатор|C34|C0805|GRM216R71H222K|1|2200
+17|Конденсатор|C35|C1206|CC1206JRNPOBBN101|1|100
+18|Low Cost Low Power  Instrumentation Amplifier|DA1|DIP8|INA122P|1|
+19|4-Bit Bidirectional Voltage-level Translator|DA2|TSSOP14|TXB0104PWR|1|
+20|Step-Down DC-DC Converter|DA3|SOT23-5|LM3671MF-3.3/NOPB|1|
+21|High and Low Side Driver|DA4|SO16|IR2110STRPBF|1|
+22|Current Mode PWM  Controller for Forward and  Flyback Applications|DA5|SO8|UC3843BD1013TR|1|
+23|Medium-density performance line ARM®-based 32-bit MCU with 64  or 128 KB Flash, USB, CAN, 7 timers, 2 ADCs, 9 com. interfaces|DD1|LQFP48|STM32F103C8T6TR|1|
+24|Предохранитель|FU1|FUSE812|MF-MSMF260|1|
+25|EMI Suppression Filter|L1|L0603|BLM18PG181SN1D|1|0
+26|EMI Suppression Filter|L2, L4, L6, L8|SRR0604|SRR0604-3R3ML|4|3,3мкГн
+27|EMI Suppression Filter|L3, L5, L9|L0805|CM201212-R18KL|3|0,18мкГн
+28|EMI Suppression Filter|L7|SRP1770TA|SRP1770TA-101M|1|100мкГн
+29|Резистор|R1|R0805|RC0805FR-07100RL|1|100
+30|Potentiometer|R2|3296Y|3296Y-1-202LF|1|2к
+31|Резистор|R3|R1206|RC0805FR-07510RL|1|510
+32|Резистор|R4, R21|R0805, R1206|RC0805FR-0747RL|2|47
+33|Резистор|R5|R1206|RC1206FR-076M2|1|6,2М
+34|Резистор|R6, R19, R24|R0805|RC0805FR-071KL|3|1к
+35|Резистор|R7, R23, R26|R0805|RC0805FR-0710RL|3|10
+36|Резистор|R8, R11, R25|R0805|RC0805FR-0747KL|3|47к
+37|Резистор|R9, R10|R0603|RC0603FR-0710KL|2|10к
+38|Резистор|R12|R1206|RC1206FR-071M2|1|1,2М
+39|Резистор|R13|R0805|RC0805FR-0710KL|1|10к
+40|Резистор|R14, R15|R0805|RC0805FR-070RL|2|0
+41|Резистор|R16|R0805|RC0805FR-077K5|1|7,5к
+42|Резистор|R17|R1206|RC1206FR-07100RL|1|100
+43|Potentiometer|R18|3296Y|3296Y-1-203LF|1|20к
+44|Резистор|R20|R0805|RC0805FR-07150RL|1|150
+45|Резистор|R22|KNP-2|KNP-2W-1KJ|1|1
+46|Диод|VD1, VD8|SMA|SMA4007|2|
+47|Диод Шоттки|VD2, VD7|SOD-523|PMEG2010AEB.115|2|
+48|Диод|VD3|SMA|GS1M|1|
+49|Cтабилитрон (лавинный выпрямительный диод) односторонний|VD4|SMA|SMAJ5.0A|1|
+50|Диод Шоттки|VD5, VD9|SOD-123|MBR0520LT1|2|
+51|Диод Шоттки|VD6|SMA|SK34A|1|
+52|N-MOSFET|VT1|SOT23-3|IRLML6401TRPBF|1|
+53|N-MOSFET|VT2, VT3, VT4|D2PAK|IRF840ASPBF|3|
+54|Разъем - 2 конт. розетка|X2, X3|CWF-2R|DS1069-2 MR-A|2|
+55|Кварцевый резонатор|Z1|HC-49S|8.000MHzHC-49US|1|
