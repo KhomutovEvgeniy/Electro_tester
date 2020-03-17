@@ -1,10 +1,9 @@
-;#<FEEDBACK># ARM Linker, 5060422: Last Updated: Wed Nov 27 16:03:41 2019
+;#<FEEDBACK># ARM Linker, 5060750: Last Updated: Tue Mar 17 16:44:51 2020
 ;VERSION 0.2
 ;FILE adc.o
 __asm___5_adc_c_70d8eccc____REV16 <= USED 0
 __asm___5_adc_c_70d8eccc____REVSH <= USED 0
 __asm___5_adc_c_70d8eccc____RRX <= USED 0
-adc_getValue <= USED 0
 ;FILE main.o
 __asm___6_main_c_0a13c34b____REV16 <= USED 0
 __asm___6_main_c_0a13c34b____REVSH <= USED 0
@@ -89,7 +88,6 @@ GPIO_ReadInputData <= USED 0
 GPIO_ReadInputDataBit <= USED 0
 GPIO_ReadOutputData <= USED 0
 GPIO_ReadOutputDataBit <= USED 0
-GPIO_SetBits <= USED 0
 GPIO_Write <= USED 0
 GPIO_WriteBit <= USED 0
 __asm___16_stm32f10x_gpio_c_f8e8e39a____REV16 <= USED 0
@@ -158,7 +156,6 @@ TIM_GetCapture1 <= USED 0
 TIM_GetCapture2 <= USED 0
 TIM_GetCapture3 <= USED 0
 TIM_GetCapture4 <= USED 0
-TIM_GetCounter <= USED 0
 TIM_GetFlagStatus <= USED 0
 TIM_GetITStatus <= USED 0
 TIM_GetPrescaler <= USED 0

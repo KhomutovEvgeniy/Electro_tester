@@ -22,6 +22,7 @@ ShutDown   of Driver  -> TIM1 channel3 PA10 Pin31
 
 #define SYSTICK_PRESCALER 1000 
 #define DELAY 1
+#define MAX_TIM_COUNTER 1000
 
 /***************************************************************************************************
 Локальные типы данных
@@ -114,7 +115,7 @@ void SysTick_Handler()
 
 int main(void)
 {   
-    initPWM();
+    initPWM(); // 200 Hz timer init from cycle to cycle
     adc_init();
     adc_startConvertion();
     systick_init();
@@ -125,7 +126,17 @@ int main(void)
 //    while(delayMs(2) != true);
 //    tim_setDutyCycle(1, dutyCycle1);  // High Channel
 
-    static uint16_t timCounter1 = 0;
+    static uint16_t timCounter1 = 0; // From 0 to 999 and again
+    
+//    uint16_t startLowIn = 0; // The number of timCounter when LowIn in is HIGH
+    uint16_t dutyCycleLowIn = 300;
+    uint16_t dutyCycleHighIn = 200;
+    uint16_t lowInToHighIn = (MAX_TIM_COUNTER - dutyCycleLowIn - dutyCycleHighIn) / 2; 
+    // It makes the same distance between borders signals
+    
+    uint16_t startHighIn = dutyCycleLowIn + lowInToHighIn; // The number of timCounter when HighIn in is HIGH
+    uint16_t endHighIn = startHighIn + lowInToHighIn; // The number of timCounter when Highin in is LOW
+    
     static uint16_t voltage = 0;
         
     GPIO_ResetBits(GPIOA, GPIO_Pin_8);
@@ -133,26 +144,26 @@ int main(void)
 
     GPIO_ResetBits(GPIOA, GPIO_Pin_11);
     
-//    while ( 1 )
-//    {
-//        timCounter1 = TIM_GetCounter(TIM1);
-//        if(timCounter1 < 200) 
-//        {
-//            GPIO_SetBits(GPIOA, GPIO_Pin_8);
-//            GPIO_ResetBits(GPIOA, GPIO_Pin_11);
-//        }
-//        else if(timCounter1 > 350 && timCounter1 < 850) 
-//        {
-//            GPIO_SetBits(GPIOA, GPIO_Pin_11);
-//            GPIO_ResetBits(GPIOA, GPIO_Pin_8);
-//        }
-//        else 
-//        {
-//            GPIO_ResetBits(GPIOA, GPIO_Pin_8);
-//            GPIO_ResetBits(GPIOA, GPIO_Pin_11);
-//        }
-//        voltage = adc_getValue(0);
-//    }
+    while ( 1 )
+    {
+        timCounter1 = TIM_GetCounter(TIM1);
+        if(timCounter1 < dutyCycleLowIn) 
+        {
+            GPIO_SetBits(GPIOA, GPIO_Pin_8);
+            GPIO_ResetBits(GPIOA, GPIO_Pin_11);
+        }
+        else if(timCounter1 > startHighIn && timCounter1 < endHighIn) 
+        {
+            GPIO_SetBits(GPIOA, GPIO_Pin_11);
+            GPIO_ResetBits(GPIOA, GPIO_Pin_8);
+        }
+        else 
+        {
+            GPIO_ResetBits(GPIOA, GPIO_Pin_8);
+            GPIO_ResetBits(GPIOA, GPIO_Pin_11);
+        }
+        voltage = adc_getValue(0);
+    }
 }
 
 // классический ассерт для STM32
